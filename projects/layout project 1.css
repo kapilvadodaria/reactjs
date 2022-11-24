@@ -1,0 +1,119 @@
+*{box-sizing: border-box; padding: 0; margin: 0;font-family: 'Poppins', sans-serif;}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:black ;
+}
+.navbar{display: flex;width: 100%;}
+.logo {width: 20%;padding: 25px 30px 30px 50px;}
+.logo img{max-width: 100%;}
+.menu{width: 80%;}
+.menu ul{ list-style-type: none;margin-left: 10px; }
+.menu ul li{display: inline-block; padding: 35px 25px; }
+.menu a{text-decoration: none;color:#ffc107;font-size: 20px; }
+.menu ul button{background-color: black; color: #ffc107;margin-left: 150px;font-size: 20px;}
+.menu ul li .active{color: white;}
+.menu ul li :hover{color: white;}
+ 
+.menu ul i{color: white;margin-left: 80px;}
+.banner{ background: url("https://www.free-css.com/assets/files/free-css-templates/preview/page281/eoc/assets/images/banner.jpg");
+         padding: 135px 0 0 0;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         height: 600px;
+         margin-top: 6px;
+}
+.banner h1{color: #ffc107;font-size: 60px;padding-left: 40px;}
+.banner h2{color:white;font-size: 60px;padding-left: 40px;}
+.banner h3{color: white; padding-left: 45px;padding-top: 45px;}
+.banner button{width: 180px;height: 60px;margin-left: 40px;background-color: blue;border-radius: 30px;font-style: bold;color: white;
+    align-items: center;margin-top: 45px;}
+.banner button:hover{background-color: #ffc107;}
+.banner .next{margin-bottom: 60px;}
+.sugest{width: 100%;background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page281/eoc/assets/images/service_bg.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;height: 1015px;}
+
+.page h1 i{padding-right: 8px;}
+.page h1{ font-size: 45px;font-style: bolder;padding-left: 80px;color: #ffc107;margin-top: 80px;}
+.page h2{ font-size: 45px;font-style: bolder;padding-left: 80px;}
+.page p{font-size: 20px;padding-top: 40px; padding-left: 80px;}
+.about-main{width: 100%;display: flex;}
+.about-img{width: 15%;padding-left: 80px;margin-top: 40px;}
+.about{width: 85%;margin-top: 40px;}
+.about p{margin-top: 30px;}
+.cable-change{width: 100%;display: flex;}
+.cable-img{width: 15%;padding-left: 80px;margin-top: 40px;}
+.change{width: 85%;margin-top: 40px;}
+.change p{margin-top: 30px;}
+.Emergy-Survey{width: 100%;display: flex;}
+.Emergy-img{width: 15%;padding-left: 80px;margin-top: 40px;}
+.Survey{width: 85%;margin-top: 40px;}
+.Survey p{margin-top: 30px;}
+.Security-Alert{width: 100%;display: flex;}
+.Security-img{width: 15%;padding-left: 80px;margin-top: 40px;}
+.Alert{width: 85%;margin-top: 40px;}
+.Alert p{margin-top: 30px;}
+.readmore{margin-left: 25%;margin-top:50px;padding: 10px 15px 10px 15px;border-radius: 30px;border-color: #ffc107;}
+.readmore a{text-decoration: none;font-size: 20px;color: #ffc107;}
+.readmore button:hover{background-color: blue;}
+.about-us-main{width: 100%; display: flex;padding-left: 560px;margin-top: 80px;}
+.about-us-main img{padding-right: 20px;}
+.about-us-header{font-size: 20px;}
+.about-us-header span{color: #ffc107;}
+.about-pera{padding-left: 180px;margin-top: 40px;font-size: 17px;font-weight: 500;line-height: 24px;}
+.video-img{padding-left:180px;margin-top: 40px;}
+.project{width: 100%;margin-top: 150px;background-color: #ffc107;padding-top: 127px;}
+.project-one{width: 100%;display: flex;}
+.project-img{padding-left: 450px;padding-right: 20px;height: 30px;}
+.project-header{font-size: 30px;color: white;}
+.project-pera{width: 100%;margin-top: 15px;padding-left: 200px;font-size: 17px;font-weight: 500;line-height: 24px;color: white;}
+.project-multi{display: flex;width: 100%;margin-top: 100px;}
+.project-multi-one{margin-left: 80px;}
+.project-multi-one h1{text-align: center;color: white;}
+.project-multi-two{margin-left: 40px;margin-top: 100px;}
+.project-multi-two h1{text-align: center;color: white;}
+.project-multi-three{margin-left: 40px;}
+.project-multi-three h1{text-align: center;line-height: 30px;font-weight: 700px;color: white;}
+.project-multi-hr{margin-left:50px;padding: 10px 15px 10px 15px;border-radius: 30px;border-color:white;color: #ffc107;}
+.project-multi-hr a{text-decoration: none;font-size: 20px;color:white;background-color: #ffc107;}
+.project-multi button:hover{background-color: blue;}
+.terminal-one{width: 100%;display: flex;margin-top: 100px;}
+.one-img{margin-left: 560px;padding-right: 20px;}
+.one-header{font-style: bolder;}
+.terminal-two{margin-left: 600px;margin-top: 50px;}
+.terminal-pera{margin-left: 250px;font-size: 17px;font-weight: 500;line-height: 24px;}
+.contactus-one{width: 100%;display: flex;background-color: blue;height: 700px;margin-top: 100px;}
+.contactus-one h1{padding-bottom: 40px;padding-top: 40px;padding-left: 50px;color: white;}
+.contactus{border-bottom: #fff solid 1px; margin-bottom: 20px; width: 100%; height: 57px; background: 0 0; color: #fff; font-size: 18px;
+           font-weight: 400; border-top: inherit; border-left: inherit; border-right: inherit;margin-left: 50px;color: white;}
+.map{width: 50%;height: 700px;}
+.send_btn { background: #fcc10e;  font-weight: 500;font-size: 18px;width: 185px; color: #fff; height: 56px; margin-top: 50px;
+            transition: ease-in all .5s; border-radius: 40px;margin-left: 50px;}
+.footer-main{background-color: black;padding-bottom: 125px;}           
+.footer{width: 100%;display: flex;color: white;background-color:black;}
+.footer-one{width: 35%;margin-left: 60px;}
+.footer-img{margin-top: 80px;}
+.footer p{font-size: 17px;line-height: 24px;}
+.footer-two{width: 30%;}
+.footer-two h1{margin-top: 80px;}
+.footer-two ul {margin-top: 20px;text-decoration: none;list-style-type: none;}
+.footer-two ul li{margin-top: 10px;}
+.footer-two ul a{text-decoration: none; font-size: 17px;}
+.footer-three{width: 35%;}
+.footer-three{margin-top: 80px;}
+.loc {width: 100%;display: flex;}
+.loc i{margin-top: 20px;} 
+.loc p{margin-top: 23px;margin-left: 10px;}
+.phone{width: 100%;display: flex;}
+.phone i{margin-top: 30px;}
+.phone p{margin-top: 33px;margin-left: 10px;}
+.gmail{width: 100%;display: flex;}
+.gmail i{margin-top: 30px;}
+.gmail p{margin-top: 33px;margin-left: 10px;}
+.last{display: flex;width: 100%;}
+.last-one{margin-left: 60px;margin-top: 60px;color: #fff;}
+.last-one h2{color: white;}
+
+    
+
